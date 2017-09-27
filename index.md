@@ -1,4 +1,4 @@
-## Placeholder page
+## Sorry, this is just a placeholder page :\
 My personal page will be here soon, until then this will have to do.
 
 ### Find me at
