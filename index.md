@@ -5,3 +5,4 @@ My personal page will be here soon, until then this will have to do.
 [Github](https://github.com/Addono)
 [Telegram](https://telegram.me/Addono)
 [LinkedIn](https://www.linkedin.com/in/adriaan-knapen)
+[Email](mailto:a.d.knapen@protonmail.com)
