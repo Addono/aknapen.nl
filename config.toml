@@ -1,0 +1,49 @@
+baseurl = "https://aknapen.nl/"
+languageCode = "en-US"
+title = "Adriaan Knapen"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profile.jpg"
+  author = "Adriaan Knapen"
+  description = "An abstraction wizzard"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "Addono"
+  GItlab        = "Addono"
+  Email         = "a.d.knapen@pm.me"
+  Phone         = "+31640410001"
+  Whatsapp      = "31640410001"
+  Twitter       = ""
+  LinkedIn      = "adriaan-knapen"
+  Stackoverflow = ""
+  Medium        = ""
+  Telegram      = "Addono"
+
+## Main Menu
+#[[menu.main]]
+#  name = "blog"
+#  weight = 100
+#  identifier = "blog"
+#  url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "https://github.com/Addono"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 300
+  url = "/doc/resume.pdf"
