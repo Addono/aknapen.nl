@@ -1,5 +1,5 @@
 rmdir .\production /s /q
-mkdir .\production
+mkdir production
 echo gitdir: ../.git/modules/production> .\production\.git
 
 hugo -d .\production\
