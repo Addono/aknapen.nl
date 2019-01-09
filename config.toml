@@ -22,7 +22,7 @@ theme = "hugo-sustain"
 [params.social]
   Github        = "Addono"
   GItlab        = "Addono"
-  Email         = "a.d.knapen@pm.me"
+  Email         = "hi@aknapen.nl"
   Phone         = "+31640410001"
   Whatsapp      = "31640410001"
   Twitter       = ""
