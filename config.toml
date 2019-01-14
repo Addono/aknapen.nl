@@ -46,4 +46,4 @@ theme = "hugo-sustain"
   name = "resume"
   identifier = "resume"
   weight = 300
-  url = "/doc/resume.pdf"
+  url = "https://addono.gitlab.io/CV/cv.pdf"
