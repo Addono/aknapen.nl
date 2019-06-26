@@ -2,3 +2,5 @@ public/
 .idea/
 production/
 *.db
+
+node_modules/
