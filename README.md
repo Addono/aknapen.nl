@@ -8,3 +8,8 @@ The prefered method of getting the source code is by running:
  git clone https://github.com/Addono/addono.github.io --recurse-submodules
 ```
 
+Then switch to the main development branch `latest`:
+```bash
+git checkout latest
+```
+
