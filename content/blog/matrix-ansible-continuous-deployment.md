@@ -19,7 +19,7 @@ A while ago I decided to move away from Whatsapp and Telegram in favor of [Matri
 
 To get the most out of Matrix it is best to deploy an instance for yourself. It's quite an involved process, however luckily [there's an Ansible playbook](https://github.com/spantaleev/matrix-docker-ansible-deploy) which does most of the heavy lifting for you. However, it is still frequently updated, hence I was executing the playbook quite often.
 
-## Cron to the Rescue
+## Iteration #1: Cron to the Rescue
 My first step of automating this process was by wrapping the playbook update commands in a short shell script, which then was executed every night by a cron job. It worked, but was far from ideal, for starters:
 
 * __Ease of use__: The Ansible playbook was executed from a VM - to make matters worse, the same machine as where Matrix was deployed on. Hence, in order to manually invoke the playbook or access the logs one had to SSH into the machine. So, fixing anything without a computer at hand was quite painfull.
