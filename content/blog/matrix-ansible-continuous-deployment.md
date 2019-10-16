@@ -21,10 +21,13 @@ To get the most out of Matrix it is best to deploy an instance for yourself. It'
 
 ## Cron to the Rescue
 My first step of automating this process was by wrapping the playbook update commands in a short shell script, which then was executed every night by a cron job. It worked, but was far from ideal, for starters:
+
 * __Ease of use__: The Ansible playbook was executed from a VM - to make matters worse, the same machine as where Matrix was deployed on. Hence, in order to manually invoke the playbook or access the logs one had to SSH into the machine. So, fixing anything without a computer at hand was quite painfull.
-* __Reliability__: If the entire VM would, for whatever reason, disappear from the face of the earth, then nothing could be retrieved or recovered. As everything, including data, config and logs, where merely present on this single instance.
+* __Reliability__: If the entire VM would for whatever reason disappear from the face of the earth, then nothing could be retrieved or recovered. As everything, including data, config and logs, where merely present on this single instance.
 
-## Pipelines for the rescue
-In order to tackle the problem I decided to check the configuration into version control and use a CI/CD pipeline to automatically deploy. For everyone who rather plays with the code than to continuou reading, you can find it [here](https://gitlab.com/Addono/matrix-ansible-cd) and it should be rather easy to set it up yourself.
+## Iteration #2: CI/CD Pipelines
+The second solution for automating the updating process was to start using pipelines, the ones you normally use for CI/CD. Why CI/CD pipelines? Because calling Ansible from code is nearly trivial, hence they easily integrate with these pipelines. Now, we will get an email when the update failes and have our logs stored savely on a different machine. 
 
-In short, it uses a Gitlab CI pipeline which uses the latest version of the playbook to deploy the application. You can either use it for merely initiated manually update, or use the scheduled pipelines functionality to get similar behaviour to cron jobs. The best thing is, Gitlab offers quite a bit of execution time for free for your pipelines, so there's no need to pay anything.
+_For everyone who rather plays with the code than to continuou reading, you can find it [here](https://gitlab.com/Addono/matrix-ansible-cd) and it should be rather easy to set it up yourself._
+
+In short, I decided to use Gitlab CI pipelines, which gets and runs the latest version of the playbook to deploy the application. You can either use it for manually initiated update, or use the scheduled pipelines functionality to get the same behaviour as we had with the cron job solution. The best thing is, Gitlab offers quite a bit of execution time for free for your pipelines, so there's no need to pay anything.
