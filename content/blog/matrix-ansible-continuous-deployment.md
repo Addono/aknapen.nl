@@ -2,14 +2,17 @@
 title = "Continuous Deploy your own Matrix instance"
 description = ""
 tags = [
-    "gitlab",
-    "ansible",
-    "continuous-integration",
-    "automation",
+    "Gitlab",
+    "Ansible",
+    "Continuous Integration",
+    "Automation",
+    "Privacy",
+		"Open Source",
 ]
 date = "2019-07-23"
 categories = [
     "Development",
+    "Deployment",
     "DevOps",
 ]
 highlight = "true"
