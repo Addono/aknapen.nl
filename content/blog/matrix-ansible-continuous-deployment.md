@@ -15,7 +15,7 @@ categories = [
     "Deployment",
     "DevOps",
 ]
-highlight = "true"
+highlight = "false"
 +++
 ## Bye Whatsapp
 A while ago I decided to move away from Whatsapp and Telegram in favor of [Matrix](https://matrix.org/), mostly to imporve my privacy and get more control over my own data - yes Whatsapp, I'm looking at your limited backup options. But enough about the idealistic tech vision and more about tech itself.
