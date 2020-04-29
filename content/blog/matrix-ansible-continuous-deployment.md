@@ -14,6 +14,7 @@ categories = [
     "Development",
     "Deployment",
     "DevOps",
+    "Technology",
 ]
 highlight = "false"
 +++

@@ -9,6 +9,7 @@ tags = [
 date = "2020-04-29"
 categories = [
     "Productivity",
+    "Technology"
 ]
 highlight = "false"
 +++
@@ -30,7 +31,7 @@ The remainder of this post will dive into the methods which have led me to adopt
 ## Be Curious and Critical
 If you ever wonder “Why haven’t I automated this yet”, then you’re probably already too late. Being critical on your own routines and curious about improving them is foundational to refactoring your own habits. Digging into how to do something more effectively is something you should actively strive for. Having a natural curiosity to do so will make it a lot easier, just quickly searching online if there’s a ready-made solution takes less than a minute and already teaches you something. If you find something, then the process of applying this 
 
-## Dare to Change
+## Search for Change
 Over time, habits will slowly become routines. Routines you do not look back to, nor consider to improve. Regularly radically changing your environment is a great opportunity. For one, this change of context forces you to adapt your old habits to unfamiliar applications. These unfamiliar environments often solve the same goal, however different underlying ideologies made them to make different choices. Such a switch is a great opportunity to experience the best of both worlds and become more flexible at using different environments.
 
 Concrete examples of switches I regularly try to make:
