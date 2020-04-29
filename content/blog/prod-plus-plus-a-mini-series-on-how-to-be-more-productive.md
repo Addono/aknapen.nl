@@ -11,7 +11,6 @@ categories = [
     "Productivity",
     "Technology"
 ]
-highlight = "false"
 +++
 In this mini-series I will walk you through some of the habits I replaced in recent times, which have shown to pay off and make me a more productive programmer/power-user of my computer. All these changes should be easy to gradually adopt so I would highly recommend to check them out. If you’ve any suggestions ☝️ or improvements ✍️, then email me at hi@aknapen.nl or reach out using any of the social media listed [here](https://aknapen.nl).
 

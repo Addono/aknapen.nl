@@ -15,7 +15,6 @@ categories = [
     "DevOps",
     "Technology"
 ]
-highlight = "false"
 +++
 
 ## Game Night
