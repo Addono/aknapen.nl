@@ -17,7 +17,7 @@ categories = [
     "Technology",
 ]
 +++
-## Bye Whatsapp
+# Bye Whatsapp
 A while ago I decided to move away from Whatsapp and Telegram in favor of [Matrix](https://matrix.org/), mostly to improve my privacy and get more control over my own data - yes Whatsapp, I'm looking at your limited backup options. But enough about the idealistic tech vision and more about tech itself.
 
 To get the most out of Matrix it is best to deploy an instance for yourself. It's quite an involved process, however luckily [there's an Ansible playbook](https://github.com/spantaleev/matrix-docker-ansible-deploy) which does most of the heavy lifting for you. However, it is still frequently updated, hence I was executing the playbook quite often.
