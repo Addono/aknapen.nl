@@ -12,10 +12,10 @@ categories = [
     "Technology"
 ]
 +++
-In this mini-series I will walk you through some of the habits I replaced in recent times, which have shown to pay off and make me a more productive programmer/power-user of my computer. All these changes should be easy to gradually adopt so I would highly recommend to check them out. If you’ve any suggestions ☝️ or improvements ✍️, then email me at hi@aknapen.nl or reach out using any of the social media listed [here](https://aknapen.nl).
+In this mini-series I will walk you through some habits I replaced in recent times, which have shown to pay off and make me a more productive programmer/power-user of my computer. All these changes should be easy to gradually adopt, so I would highly recommend checking them out. If you’ve any suggestions ☝️ or improvements ✍️, then email me at hi@aknapen.nl or reach out using any of the social media listed [here](https://aknapen.nl).
 
 ---
- 
+
 # The Need for Refactoring Your Habits
 It is often said that the best thing one can spend their time on is learning [[1]](#references)[[2]](#references)[[3]](#references). I agree. However learning can take various forms, one I find being particularly under appreciated is improving. Here I am not talking about increasing your knowledge in a field you already have a profound basis in. Instead, I want to focus on replacing previously acquired knowledge - or habits - with more effective and valuable alternatives.
 
