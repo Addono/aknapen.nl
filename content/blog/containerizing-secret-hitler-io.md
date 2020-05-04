@@ -46,3 +46,5 @@ When everything is booted up you can access the application at [http://localhost
 If you did this on a VM running in the cloud or your own server, then opening up port 8080 should be enough to be able to play now with friends. At this point, you might want to setup a reverse proxy - e.g. NGINX - with Let’s Encrypt to enable HTTPS and expose the application on a different port. However, assuming you’re only using it to play a game or two with friends this shouldn’t be too much on an issue. 
 
 *_Sidenote: I haven’t looked into configuring email, which causes the register form to fail when the email field is not left empty. As such, instruct everyone who’s joining that they leave the email field empty. PRs fixing this — or any other issues for that matter — are welcome!_*
+
+_Update: SSL support arrived in [#18](https://github.com/Addono/secret-hitler/pull/18) 🎉._
