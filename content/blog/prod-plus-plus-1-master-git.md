@@ -56,3 +56,8 @@ Okay, this might sound very boring at start. Luckily Github has really nice way 
 
 Even small changes of for example new flags or under the hood performance improvements show you what is actively worked on, which parts are getting deprecated and how Git is being used. Slowly your Git knowledge will get stale, so keeping up with the changes allows you to stay ahead of the curve.
 
+### Don't be Scared to (Rewrite) History
+
+At first, rebasing, soft/hard resetting, amending and force-pushing might sound scary, because these tools are just a subsection of the tools available to rewrite or delete history. When getting started, be cautious and make sure that until you properly understand what you're doing before you try it in an environment where you can cause serious harm. It's not rocket science, but a mistake is easily made. 
+
+If you're comfortable to remove, reorder and overwrite commits, you can more freely add commits when you're working. Leaving cleaning up to something only done last before you push to master or you create a pull request. Frequently adding commits while you're working allows you to understand what you tried and more easily revert part of your changes. But maybe the most important benefit is that it makes it significantly harder to lose progress once it's committed.
