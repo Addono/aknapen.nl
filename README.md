@@ -4,12 +4,13 @@
 # Getting the source code
 
 The preferred method of getting the source code is by running:
+
 ```bash
  git clone https://github.com/Addono/addono.github.io --recurse-submodules
 ```
 
 Then switch to the main development branch `latest`:
+
 ```bash
 git checkout latest
 ```
-
