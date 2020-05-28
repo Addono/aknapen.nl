@@ -46,8 +46,8 @@ Concrete examples of switches I regularly try to make:
 
 # References
 
-[1][jane harkness, the writing cooperative, write what you know — and then keep learning](https://writingcooperative.com/write-what-you-know-and-then-keep-learning-7c7896665d11)
+[1]. [Jane Harkness, The writing Cooperative, Write What You Know — and Then Keep Learning](https://writingcooperative.com/write-what-you-know-and-then-keep-learning-7c7896665d11)
 
-[2][dennis nerush, hackernoon.com, active learner - how developers keep learning](https://medium.com/hackernoon/active-learner-how-developers-keep-learning-1309b91f1ae6)
+[2]. [Dennis Nerush, hackernoon.com, Active Learner - How Developers Keep Learning](https://medium.com/hackernoon/active-learner-how-developers-keep-learning-1309b91f1ae6)
 
-[3][kevin gardner, freecodecamp.org, how to keep learning and become a better coder](https://medium.com/free-code-camp/five-great-tactics-for-becoming-a-better-coder-5c6da86ab0d0)
+[3]. [Kevin Gardner, freecodecamp.org, How to Keep Learning and Become a Better Coder](https://medium.com/free-code-camp/five-great-tactics-for-becoming-a-better-coder-5c6da86ab0d0)
