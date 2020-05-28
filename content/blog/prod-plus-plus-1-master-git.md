@@ -1,6 +1,6 @@
 +++
 title = "Prod++[1]: Master Git"
-description = "."
+description = "Various tips on how to become more effective and productive at getting the fullest out of Git."
 tags = [
     "Productivity",
     "Git",
