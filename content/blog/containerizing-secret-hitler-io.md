@@ -6,7 +6,9 @@ tags = [
     "Docker",
     "docker-compose",
     "Automation",
-			    "Open Source",
+    "Open Source",
+    "Development",
+    "NodeJS",
 ]
 date = "2020-04-28"
 categories = [
