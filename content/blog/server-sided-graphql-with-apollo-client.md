@@ -51,3 +51,5 @@ Lastly, this form of local caching will see **degraded effectiveness** when a lo
 To conclude, be mindful about caching. It can help a bit, but the default Apollo Client caching implementation is in memory and consequentially not as effective as it is on the client side. Maybe in the future we will see a Redis client, as [exists](https://www.npmjs.com/package/apollo-server-cache-redis) for Apollo Server, but until then, we will have to make due with what we have.
 
 *Thank you* [*Keira Nicole Soutar*](https://ksoutar.com/) *for taking the time to review this post.*
+
+This post is now also [published](https://medium.com/swlh/server-sided-graphql-with-apollo-client-cf072a27145f) by "The Startup" on Medium!
