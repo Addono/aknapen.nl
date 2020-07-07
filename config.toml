@@ -11,7 +11,7 @@ theme = "hugo-sustain"
 [params]
   avatar = "profile.jpg"
   author = "Adriaan Knapen"
-  description = "An abstraction wizzard"
+  description = "The personal website of Adriaan Knapen"
   goatCounter="addono"
 
   # Custom assets can be linked with their paths relative to static/
