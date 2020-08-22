@@ -3,7 +3,7 @@ title = "Prod++[3]: Leaner Search Using DuckDuckGo !Bangs"
 description = "Besides increases in privacy DuckDuckGo also gives you awesome shortcuts to search more effectively."
 tags = [
     "Productivity",
-    "Seach"
+    "Search"
 ]
 date = "2020-08-21"
 categories = [
