@@ -62,7 +62,7 @@ const EmailSignupForm = () => {
     }
   )
 
-  // Clear the form on successfull submitting it
+  // Clear the form on successful submitting it
   useEffect(() => {
     if (data?.success === true && !loading) {
       setEmail("")
