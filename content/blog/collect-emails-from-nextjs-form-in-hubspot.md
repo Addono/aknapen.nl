@@ -39,7 +39,7 @@ npm install axios axios-hooks
 
 # For Yarn
 yarn add axios axios-hooks
-``` 
+```
 
 Then the component is just a simple form to which we supply a callback to Axios to make the webrequest with the form's data.
 
@@ -154,3 +154,7 @@ _Note that the HubSpot API key is set as an environment variable `HUBSPOT_API_KE
 This is pretty much all there's to it.
 In the end, we have a quite simple solution which still allows us to style the form however we want.
 I left my specific styling out, but when the new website is live I will add link to show off the purty end-result.
+
+---
+
+_If you prefer reading my articles on Medium, you can find this post [here](https://addono.medium.com/collect-emails-from-nextjs-form-in-hubspot-27f76c70f3fe)._
