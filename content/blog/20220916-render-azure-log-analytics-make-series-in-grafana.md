@@ -25,7 +25,7 @@ Since we already have our logs emitted to Azure Log Analytics we could use that 
 
 Writing the queries to fetch our data from Log Analytics is rather straight forward. However, the graphs it produces aren't as interactive as we would like it to be.
 
-Also, in the future we would like to be able to easily ingest data from other sources as well. Therefore we started evaluating the use of Grafana to render the graphs.
+Also, in the future we would like to be able to easily ingest data from other sources as well. Therefore, we started evaluating the use of Grafana to render the graphs.
 
 We would still write our queries in Kusto - Azure Log Analytic's query language - but after that let Grafana render this data in a dashboard.
 
@@ -44,7 +44,7 @@ ContainerLog
 
 ## Transforming `make-series` data
 
-Lucklily, we can use our Kusto-foo to transform the data from `make-series` to be in a format Grafana can handle.
+Luckily, we can use our Kusto-foo to transform the data from `make-series` to be in a format Grafana can handle.
 
 The trick is to "expand" the `make-series` data - similar as to how `zip` works in Python - to go from the lists of measurements we received from `make-series` back into individual rows.
 
