@@ -1,6 +1,6 @@
 +++
 title = "Rendering Azure Log Analytics make-series in Grafana"
-description = "The Azure Log Analytics with Grafana doesn't support render time series data coming from make-series. This post explains how to transform your output data into a format Grafana can visualize."
+description = "The Azure Log Analytics integration with Grafana doesn't support render time series data coming from make-series. This post explains how to transform your output data into a format Grafana can visualize."
 tags = [
     "Azure",
     "Azure Log Analytics",
