@@ -19,7 +19,7 @@ categories = [
 
 # Rendering Azure Log Analytics `make-series` in Grafana
 
-Not to long ago I got into building a metrics dashboard for our resources in Azure.
+Not too long ago I got into building a metrics dashboard for our resources in Azure.
 Specifically, we're running our applications in Azure Kubernetes Services and want to have a dashboard to track how everything is doing.
 Since we already have our logs emitted to Azure Log Analytics we could use that to build our metrics.
 
