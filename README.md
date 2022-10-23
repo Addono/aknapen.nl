@@ -13,3 +13,19 @@ Then switch to the main development branch `latest`:
 ```bash
 git checkout latest
 ```
+
+## 🔨 Building
+
+This website is build using Hugo, you can do a full build by running the following command:
+
+```command
+hugo
+```
+
+## 👷‍♂️ Development
+
+For local development, you can run Hugo in server mode, which defaults to having hot-reloading enabled:
+
+```command
+hugo server
+```
