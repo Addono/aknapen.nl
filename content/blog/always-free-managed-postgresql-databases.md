@@ -18,6 +18,11 @@ categories = [
 
 +++
 
+> *Edit: This content in this post is already a couple of years stale. Heroku Postgres is not free anymore. However, in the mean time Fly.io now features [Fly Postgres](https://fly.io/docs/postgres/). It's a bit more hands-on than many managed Postgres services. However, it does fit within your free-tier and does not oversell your shared database.*
+>
+> *So, if you don't mind getting your hands dirty, then it's a very solid option.*
+ 
+
 # Always Free Managed Postgres Databases Reviewed
 
 I'm a big proponent for serverless, especially for small but long-running projects. Such project needs to be as simple as possible to get started and require no maintenance. Many of the serverless providers offer a generous free-tier, which often suffices until the project gains traction.
