@@ -53,5 +53,3 @@ To conclude, be mindful about caching. It can help a bit, but the default Apollo
 *Thank you* [*Keira Nicole Soutar*](https://ksoutar.com/) *for taking the time to review this post.*
 
 This post is now also [published](https://medium.com/swlh/server-sided-graphql-with-apollo-client-cf072a27145f) by "The Startup" on Medium!
-
-Hello TDOC!
