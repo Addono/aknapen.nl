@@ -29,7 +29,11 @@ Using GitHub Actions, we can automate the process of backing up our entire GitHu
 
 I happen to already have a storage server that supports WebDAV, so I'll be using that to store my backups. You can adjust the script to use other storage options like AWS S3, Google Drive, or any other cloud storage provider.
 
-The GitHub Actions script will also back up non-public files, therefore I decided to deploy it in a private repository. This way, I can ensure that the logs of the backup are not publicly accessible. The downside is that it will consume CI minutes from my personal account. Backing up from GitHub is rather slow, as it will run constantly into rate limits, which means a run can take up to 3 hours. Therefore, you probably don't want to run this script too often.
+The GitHub Actions script will also back up non-public files, therefore I decided to deploy it in a private repository. This way, I can ensure that the logs of the backup are not publicly accessible. 
+
+The downside is that it will consume CI minutes from my personal account. Backing up from GitHub is rather slow, as it will run constantly into rate limits, which means a run can take up to 3 hours. Therefore, you probably don't want to run this script too often. Twice a week is a fine trade-off for me.
+
+![Workflows in GitHub](/img/blog/20240617-github-backup-workflow-log.png)
 
 For creating the backups, we will be using the `github-backup` tool, which is a Python script that can back up GitHub repositories, wikis, issues, and more. The script will create a complete backup of the specified GitHub account and store it in a tarball that will be uploaded to a WebDAV server.
 
@@ -217,4 +221,3 @@ If you prefer using a different storage option, modify the upload step to use an
 ## Conclusion
 
 Automating your GitHub backups with GitHub Actions ensures that your work is securely backed up regularly. By following the steps and customizing the script to your needs, you can maintain a resilient backup strategy for your GitHub repositories.
-```
