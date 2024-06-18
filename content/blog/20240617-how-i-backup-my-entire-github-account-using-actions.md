@@ -35,7 +35,7 @@ The downside is that it will consume CI minutes from my personal account. Backin
 
 ![Workflows in GitHub](/img/blog/20240617-github-backup-workflow-log.png)
 
-For creating the backups, we will be using the `github-backup` tool, which is a Python script that can back up GitHub repositories, wikis, issues, and more. The script will create a complete backup of the specified GitHub account and store it in a tarball that will be uploaded to a WebDAV server.
+For creating the backups, we will be using the [`github-backup`](https://github.com/josegonzalez/python-github-backup) tool, which is a Python script that can back up GitHub repositories, wikis, issues, and more. The script will create a complete backup of the specified GitHub account and store it in a tarball that will be uploaded to a WebDAV server.
 
 To ensure we can easily keep the required version up-to-date, we start by creating a `requirements.txt` file with the following content:
 
