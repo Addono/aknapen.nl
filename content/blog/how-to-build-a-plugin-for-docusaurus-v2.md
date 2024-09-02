@@ -15,6 +15,12 @@ categories = [
 
 +++
 
+> Cool stuff: This blogpost [got featured](https://docusaurus.io/blog/2021/01/19/docusaurus-2020-recap#media:~:text=How%20to%20Build%20a%20Plugin%20for%20Docusaurus%20v2%20by%20Adriaan%20Knapen) on the official Docusaurus blog! 🎉 
+> 
+> Now, go read on about creating your own Docusaurus plugin 🚀. 
+
+---
+
 # How to Build a Plugin for Docusaurus v2
 
 At [ClaimR](https://claimr.tools/) we have been using [Docusaurus v2](https://v2.docusaurus.io/) for our [developer and documentation website](https://developer.claimr.tools/) for a while now. After a couple of months of using it we can confidently say that we’re very happy with our choice. 
