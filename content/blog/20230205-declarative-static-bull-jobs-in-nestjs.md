@@ -17,9 +17,9 @@ categories = [
 
 # Global declarative Cronjobs in Nest.js with Bull
 
-There are a couple of ways on how to schedule repeatable jobs in Nest.js. `@nestjs/schedule` is what the [official documentation](https://docs.nestjs.com/techniques/task-scheduling) guides you towards. It's an elegant CRON-based API, which should be familiar to most developers.
+There are several ways on how to schedule repeatable jobs in Nest.js. The [official documentation](https://docs.nestjs.com/techniques/task-scheduling) suggests using `@nestjs/schedule`. This library offers an elegant CRON-based API, which should be familiar to most Nest.js developers.
 
-Look at how elegant this declarative API is:
+Look at how neat and simple this declarative API is:
 
 ```ts
 @Injectable()
@@ -31,17 +31,17 @@ export class MyService {
 }
 ```
 
-With one line, we now have a method which will trigger whenever our heart desired. Pretty neat.
+With one line, we now have a method which will trigger whenever our heart desires. Pretty neat.
 
-However, one downside of `@nestjs/schedule` is that it creates one Cronjob for every instance of your application you're running. This is fine if your entire app runs only once, however for scaling and redundancy reasons you probably want to start horizontally scaling your application. Now, the same task will run multiple times.
+**However**, there is a glaring issue with `@nestjs/schedule`, it **creates one Cronjob for every instance of your application you're running**. This could be fine for some use-cases, for example if you run only once of your application, however most larger production-grade applications at some point will adopt horizontal scaling.
 
-At best, this is just wasteful, e.g. cleaning multiple processes to try to clean something up in your database at the same time. Other times, it will actually cause problems, e.g. it would be bad to send a daily digest email to all your users multiple times.
+Even if your application tolerates running the same job multiple times, it can range from merely wasteful (e.g. doing the same database cleanup multiple times) to problematic (e.g. sending duplicate daily digest email to all your users).
 
 ## Global jobs
 
 [Bull](https://github.com/OptimalBits/bull) is a [job queue with direct support by Nest.js](https://docs.nestjs.com/techniques/queues). Besides queuing jobs, you can also use it to schedule repeatable jobs. Those jobs are then persisted in Redis as its data store.
 
-This Redis data store is then shared by all the instances of your application. Now, whenever a repeatable job is ready to be scheduled, one of your instances will pick it up. Now Bull is responsible for tracking whether the job is successfully completed, and we can configure it to retry jobs. Bonus points for resiliency.
+All instances of your application now connect to one Redis datastore. Now, whenever a repeatable job is ready to be executed, only one of your instances will pick it up. Bull is responsible for tracking whether the job is successfully completed, and we can configure it to retry jobs. Bonus points for resiliency.
 
 Using Bull for repeatable jobs has one downside though: There's no declarative API available to automatically create these jobs. So, either you need to do it manually - 🤮 - or have your application manage it.
 
