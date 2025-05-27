@@ -16,8 +16,6 @@ categories = [
 
 +++
 
-# Optimizing Docker container image size when using Yarn
-
 In this post, I'm briefly going over how installing dependencies in your Docker image using `yarn install` can cause unnecessary bloat, why it happens, and the simple steps to take on how to fix it.
 
 ## Backstory time

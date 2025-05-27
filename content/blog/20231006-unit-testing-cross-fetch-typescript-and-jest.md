@@ -14,8 +14,6 @@ categories = [
 
 +++
 
-# Unit Testing Cross-Fetch, TypeScript and Jest
-
 Writing unit-tests for a library which overwrites the global `fetch` function can be a bit tricky. This post will show you how to do it.
 
 ## The Problem

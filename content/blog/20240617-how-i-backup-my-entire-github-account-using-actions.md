@@ -15,8 +15,6 @@ categories = [
 
 +++
 
-# How I Backup My Entire GitHub Account
-
 I've spent a lot of time building everything which I store in GitHub, so I want to make sure I have a backup of it. Here's how I have been doing it for years now, and it has worked like a charm!
 
 ## The Problem

@@ -15,8 +15,6 @@ categories = [
 
 +++
 
-# Global declarative Cronjobs in Nest.js with Bull
-
 There are several ways on how to schedule repeatable jobs in Nest.js. The [official documentation](https://docs.nestjs.com/techniques/task-scheduling) suggests using `@nestjs/schedule`. This library offers an elegant CRON-based API, which should be familiar to most Nest.js developers.
 
 Look at how neat and simple this declarative API is:

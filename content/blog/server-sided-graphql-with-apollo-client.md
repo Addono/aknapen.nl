@@ -16,8 +16,6 @@ categories = [
 
 +++
 
-# Server Sided GraphQL with Apollo Client
-
 During development of the [dashboard](https://dashboard.claimr.tools/) I’m making for [ClaimR](https://claimr.tools/) I found myself in the position where I wanted to query a GraphQL endpoint from my backend. (It’s a [NextJS](https://nextjs.org/) powered project, hence the server sided logic is written in Node.) So, I started looking for GraphQL clients but with little success.
 
 ![img](/img/blog/server-sided-graphql-with-apollo-client_header.png)

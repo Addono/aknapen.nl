@@ -21,8 +21,6 @@ categories = [
 
 ---
 
-# How to Build a Plugin for Docusaurus v2
-
 At [ClaimR](https://claimr.tools/) we have been using [Docusaurus v2](https://v2.docusaurus.io/) for our [developer and documentation website](https://developer.claimr.tools/) for a while now. After a couple of months of using it we can confidently say that we’re very happy with our choice. 
 
 Docusaurus comes batteries-included, so you immediately get a lot of value, while it is flexible enough to tailor it to your needs if there’s something you like differently. Also, their documentation is superb, as you would expect from a framework who owes its existence to its ability to create documentation websites.
